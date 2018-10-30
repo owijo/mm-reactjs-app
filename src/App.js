@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Order from './Components/Order/Order';
+
 class App extends Component {
   render() {
     return (
@@ -19,6 +21,8 @@ class App extends Component {
           >
             Learn React
           </a>
+
+          <Order/>
         </header>
       </div>
     );
